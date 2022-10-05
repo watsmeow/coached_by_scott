@@ -6,6 +6,7 @@ import WorkWith from './components/WorkWith';
 import ThinkBig from './components/ThinkBig';
 import Plans from './components/Plans';
 import Footer from './components/Footer';
+import Transformations from './components/Transformations';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Navbar/>
       <Banner/>
       <WorkWith/>
+      <Transformations/>
       <Plans/>
-      <Footer/>
+      <ThinkBig/>
     </div>
   );
 }

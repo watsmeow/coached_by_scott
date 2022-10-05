@@ -1,12 +1,13 @@
 import React from 'react';
-import ManWoman from '../images/ManWoman.png'
-import Squat from '../images/Squat.png'
+import ManWoman from '../images/ManWoman.png';
+import Squat from '../images/Squat.png';
+import ScottAndBetsy from '../images/ScottAndBetsy.jpg';
 
 const WorkWith = () => {
   return (
     <div className='w-full bg-red py-16 px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-          <img src={Squat} alt='/' className='rounded-full max-w-[400px] mx-auto'/>
+          <img src={ScottAndBetsy} alt='/' className='rounded-full max-w-[400px] mx-auto'/>
 
         <div className='flex flex-col justify-center'>
           <p className='text-white font-bold '>TAKE CONTROL OF YOUR PHYSIQUE</p>

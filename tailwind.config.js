@@ -12,6 +12,9 @@ module.exports = {
       },
       backgroundImage: {
         'banner': "url('/src/images/BannerImage.png')",
+        'transform': "url('/src/images/Transformation.jpg')",
+        'transform2': "url('/src/images/Transformation2.jpg')",
+        'transform3': "url('/src/images/Transformation3.jpg')",
       },
       extend: {
         margin: {
